@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Some Audiobook Player
+GenericName=Audiobook Player
+Comment=Play m4b and other audiobooks — a pure-Rust player
+Exec=some-audiobook-player %f
+Icon=some-audiobook-player
+Terminal=false
+Categories=AudioVideo;Audio;Player;
+MimeType=audio/x-m4b;audio/mp4;audio/mpeg;audio/flac;audio/ogg;audio/x-vorbis+ogg;audio/x-wav;
+Keywords=audiobook;book;m4b;player;
+StartupNotify=true

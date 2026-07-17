@@ -1,0 +1,40 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="256" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#C77B3B"/>
+      <stop offset="1" stop-color="#8A4B24"/>
+    </linearGradient>
+    <linearGradient id="page" x1="0" y1="150" x2="0" y2="212" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFF7EC"/>
+      <stop offset="1" stop-color="#F3E2C8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- rounded-square warm background -->
+  <rect x="8" y="8" width="240" height="240" rx="52" fill="url(#bg)"/>
+  <rect x="8" y="8" width="240" height="240" rx="52" fill="#000000" opacity="0.04"/>
+
+  <!-- headphone band arcing over the book -->
+  <path d="M60 148 V128 a68 68 0 0 1 136 0 V148"
+        stroke="#FBEAD2" stroke-width="15" stroke-linecap="round" fill="none"/>
+  <!-- ear cups -->
+  <rect x="46" y="140" width="30" height="46" rx="14" fill="#FBEAD2"/>
+  <rect x="180" y="140" width="30" height="46" rx="14" fill="#FBEAD2"/>
+
+  <!-- open book -->
+  <g>
+    <!-- left page -->
+    <path d="M128 172 C112 160 92 158 74 162 V210 C92 206 112 208 128 218 Z" fill="url(#page)"/>
+    <!-- right page -->
+    <path d="M128 172 C144 160 164 158 182 162 V210 C164 206 144 208 128 218 Z" fill="url(#page)"/>
+    <!-- spine -->
+    <rect x="125" y="170" width="6" height="49" rx="3" fill="#D9B489"/>
+    <!-- text lines -->
+    <g stroke="#C89B6B" stroke-width="3.4" stroke-linecap="round" opacity="0.8">
+      <line x1="86" y1="176" x2="116" y2="180"/>
+      <line x1="86" y1="187" x2="116" y2="191"/>
+      <line x1="140" y1="180" x2="170" y2="176"/>
+      <line x1="140" y1="191" x2="170" y2="187"/>
+    </g>
+  </g>
+</svg>

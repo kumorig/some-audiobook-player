@@ -1,0 +1,32 @@
+[package]
+name = "some-audiobook-player"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1"
+mp4ameta = "0.13"
+rodio = { version = "0.22", default-features = false, features = [
+    "playback", "mp4", "mp3", "flac", "vorbis", "wav", "symphonia-alac",
+] }
+lofty = "0.24"
+eframe = "0.35"
+rfd = "0.17"
+image = { version = "0.25", default-features = false, features = ["jpeg", "png"] }
+rusqlite = { version = "0.40", features = ["bundled"] }
+walkdir = "2"
+directories = "6"
+timestretch = "0.7"
+mpris-server = "0.10"
+async-io = "2"
+async-channel = "2"
+futures-lite = "2"
+
+[dependencies.symphonia]
+version = "0.6"
+default-features = false
+features = ["aac", "isomp4"]
+
+[[example]]
+name = "probe"
+path = "examples/probe.rs"
