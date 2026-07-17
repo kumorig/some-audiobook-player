@@ -2,6 +2,9 @@
 name = "some-audiobook-player"
 version = "0.1.0"
 edition = "2024"
+description = "A pure-Rust audiobook player (egui) — a native replacement for Cozy"
+repository = "https://github.com/kumorig/some-audiobook-player"
+license = "MIT OR Apache-2.0"
 
 [dependencies]
 anyhow = "1"

@@ -99,3 +99,19 @@ src/
 - The **Shutdown** option uses `systemctl poweroff`, which relies on the active
   local session being permitted to power off without authentication (the default
   on most systemd desktops).
+
+## Contributing
+
+Contributions are welcome, including AI-assisted ones — please just review and
+test your changes first. See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## License
+
+Dual-licensed under either of
+
+- MIT license ([LICENSE-MIT](LICENSE-MIT))
+- Apache License 2.0 ([LICENSE-APACHE](LICENSE-APACHE))
+
+at your option. Unless you explicitly state otherwise, any contribution you
+submit for inclusion shall be dual-licensed as above, without any additional
+terms or conditions.
